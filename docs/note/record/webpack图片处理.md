@@ -33,7 +33,7 @@ module:{
 
 ### 原因
 
-查看webpack文档，发现资源模块（字体，图标等）无需配置二外loader，详情请查看[webpage资源模块](https://webpack.docschina.org/guides/asset-modules/)；
+查看webpack文档，发现资源模块（字体，图标等）无需配置额外loader，详情请查看[webpage资源模块](https://webpack.docschina.org/guides/asset-modules/)；
 
 在 webpack 5 之前，通常使用：
 
