@@ -10,6 +10,11 @@ const note = [
     children: getChildren(`${notePath}/browser`),
   },
   {
+    title: "JS",
+    collapsable: true,
+    children: getChildren(`${notePath}/js`),
+  },
+  {
     title: "踩坑记录",
     collapsable: true,
     children: getChildren(`${notePath}/record`),
