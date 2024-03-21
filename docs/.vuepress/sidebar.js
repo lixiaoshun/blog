@@ -1,18 +1,23 @@
 // note
-const {getChildren} = require("vuepress-sidebar-atuo")
+const { getChildren } = require("vuepress-sidebar-atuo");
 
-const notePath = './docs/note'
+const notePath = "./docs/note";
 
 const note = [
   {
-    title: '踩坑记录',
+    title: "浏览器",
     collapsable: true,
-    children: getChildren(`${notePath}/record`)
-  }
-]
+    children: getChildren(`${notePath}/browser`),
+  },
+  {
+    title: "踩坑记录",
+    collapsable: true,
+    children: getChildren(`${notePath}/record`),
+  },
+];
 
 module.exports = {
-    '/note/': note,
-    // '/algorithm/': algorithm,
-    // '/open_source/': open_source
-}
+  "/note/": note,
+  // '/algorithm/': algorithm,
+  // '/open_source/': open_source
+};
